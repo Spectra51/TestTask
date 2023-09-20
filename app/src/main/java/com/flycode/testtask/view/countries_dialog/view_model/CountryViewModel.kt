@@ -2,9 +2,9 @@ package com.flycode.testtask.view.countries_dialog.view_model
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.flycode.testtask.model.api.City
-import com.flycode.testtask.model.api.Country
-import com.flycode.testtask.model.api.Region
+import com.flycode.testtask.model.bodies.City
+import com.flycode.testtask.model.bodies.Country
+import com.flycode.testtask.model.bodies.Region
 import com.flycode.testtask.repository.place.PlaceRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

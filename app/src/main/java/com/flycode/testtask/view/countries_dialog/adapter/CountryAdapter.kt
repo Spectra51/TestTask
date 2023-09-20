@@ -35,7 +35,7 @@ class CountryAdapter(val list: ArrayList<String>, val callback: (String) -> Unit
 
     inner class CountryViewHolder(val binding: ItemStringBinding) : ViewHolder(binding.root) {
 
-        lateinit var currentItem: String
+        private lateinit var currentItem: String
 
         init {
             binding.container.setOnClickListener {

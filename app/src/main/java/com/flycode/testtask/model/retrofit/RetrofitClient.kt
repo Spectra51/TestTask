@@ -12,7 +12,7 @@ object RetrofitClient {
 
     val service: Api = getInstance().create(Api::class.java)
 
-    fun getInstance(): Retrofit {
+    private fun getInstance(): Retrofit {
 
         val mOkHttpClient = OkHttpClient
             .Builder()
