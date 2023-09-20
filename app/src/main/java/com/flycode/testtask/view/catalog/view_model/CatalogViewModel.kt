@@ -38,13 +38,14 @@ class CatalogViewModel(
                 }else{
                     _hotelList.value = response.body()!!.results
                 }
+                _isLoading.value = false
             }else{
                 _isError.value = isError.value.copy(
                     first = "error",
                     second = true
                 )
+                _isLoading.value = false
             }
-            _isLoading.value = false
         }
     }
 
