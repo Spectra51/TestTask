@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.flycode.testtask.view.choosing_date.ChoosingDateFragment
 import com.flycode.testtask.databinding.ActivityMainBinding
+import com.flycode.testtask.view.BlankFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,12 +27,24 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
                 R.id.menu_item2 -> {
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.fragment_container, BlankFragment.newInstance(), "ChoosingData")
+                        .commit()
                     true
                 }
                 R.id.menu_item3 -> {
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.fragment_container, BlankFragment.newInstance(), "ChoosingData")
+                        .commit()
                     true
                 }
                 R.id.menu_item4 -> {
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.fragment_container, BlankFragment.newInstance(), "ChoosingData")
+                        .commit()
                     true
                 }
 
