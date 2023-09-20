@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="city_picker">Город вылета</string>
+    <string name="country_picker">Страна, курорт, отель</string>
+    <string name="trip_info">Туда %1$s · Обратно %2$s · Ночей %3$d</string>
+    <string name="close">Закрыть</string>
+    <string name="search_tour">Найти тур</string>
+    <string name="mock_adult">2 взрослых</string>
+    <string name="who_going">КТО ЕДЕТ</string>
+    <string name="mock_day">10 ночей</string>
+    <string name="count">КОЛИЧЕСТВО</string>
+    <string name="mock_date">17 сентября</string>
+    <string name="date">ДАТЫ ВЫЛЕТА</string>
+    <string name="to_where">Куда</string>
+    <string name="from_where">Откуда</string>
+    <string name="search_tour_title">Поиск туров</string>
+</resources>
