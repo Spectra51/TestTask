@@ -16,5 +16,29 @@ class MainActivity : AppCompatActivity() {
             .beginTransaction()
             .replace(R.id.fragment_container, ChoosingDateFragment.newInstance(), "ChoosingData")
             .commit()
+        mBinding.bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.menu_item1 -> {
+                    supportFragmentManager
+                        .beginTransaction()
+                        .replace(R.id.fragment_container, ChoosingDateFragment.newInstance(), "ChoosingData")
+                        .commit()
+                    true
+                }
+                R.id.menu_item2 -> {
+                    true
+                }
+                R.id.menu_item3 -> {
+                    true
+                }
+                R.id.menu_item4 -> {
+                    true
+                }
+
+                else -> {
+                    true
+                }
+            }
+        }
     }
 }
